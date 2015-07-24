@@ -126,7 +126,7 @@ summary.tidy <- dcast(melt, subject + activity.label ~ variable, mean)
 names(summary.tidy)[3:68] <- paste("mean.of.", names(summary.tidy)[3:68], sep="")
 
 ##      Sub 4: Save it to a file to upload
-write.table("summary_tidy.txt", row.name=FALSE)
+write.table(summary.tidy, "summary_tidy.txt", row.name=FALSE)
 
 #########
 ## End of assignment 5: new, independent summary tidy data set is created and saved to a file.

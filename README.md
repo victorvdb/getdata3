@@ -27,6 +27,7 @@ This is the summarized dataset as requested in the course project. You can read 
 ```{r}
 download.file("https://raw.githubusercontent.com/victorvdb/getdata3/master/summary_tidy.txt", "summary_tidy.txt")
 summary.tidy <- read.table("summary_tidy.txt", header=TRUE)
+view(summary.tidy)
 ```
 
 Thanks to David Hood's post on the coursera forums for this tidbit of code (https://class.coursera.org/getdata-030/forum/thread?thread_id=37)

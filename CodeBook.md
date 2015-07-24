@@ -58,6 +58,7 @@ STANDING | The subject is standing still.
 
 
 Variable Name | Role | Type
+--- | --- | ---
 mean.of.tBodyAcc.mean.X|Measurement|Numeric
 mean.of.tBodyAcc.mean.Y|Measurement|Numeric
 mean.of.tBodyAcc.mean.Z|Measurement|Numeric

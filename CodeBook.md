@@ -57,76 +57,82 @@ STANDING | The subject is standing still.
 
 
 
-Variable Name | Role | Type
---- | --- | ---
-mean.of.tBodyAcc.mean.X|Measurement|Numeric
-mean.of.tBodyAcc.mean.Y|Measurement|Numeric
-mean.of.tBodyAcc.mean.Z|Measurement|Numeric
-mean.of.tBodyAcc.std.X|Measurement|Numeric
-mean.of.tBodyAcc.std.Y|Measurement|Numeric
-mean.of.tBodyAcc.std.Z|Measurement|Numeric
-mean.of.tGravityAcc.mean.X|Measurement|Numeric
-mean.of.tGravityAcc.mean.Y|Measurement|Numeric
-mean.of.tGravityAcc.mean.Z|Measurement|Numeric
-mean.of.tGravityAcc.std.X|Measurement|Numeric
-mean.of.tGravityAcc.std.Y|Measurement|Numeric
-mean.of.tGravityAcc.std.Z|Measurement|Numeric
-mean.of.tBodyAccJerk.mean.X|Measurement|Numeric
-mean.of.tBodyAccJerk.mean.Y|Measurement|Numeric
-mean.of.tBodyAccJerk.mean.Z|Measurement|Numeric
-mean.of.tBodyAccJerk.std.X|Measurement|Numeric
-mean.of.tBodyAccJerk.std.Y|Measurement|Numeric
-mean.of.tBodyAccJerk.std.Z|Measurement|Numeric
-mean.of.tBodyGyro.mean.X|Measurement|Numeric
-mean.of.tBodyGyro.mean.Y|Measurement|Numeric
-mean.of.tBodyGyro.mean.Z|Measurement|Numeric
-mean.of.tBodyGyro.std.X|Measurement|Numeric
-mean.of.tBodyGyro.std.Y|Measurement|Numeric
-mean.of.tBodyGyro.std.Z|Measurement|Numeric
-mean.of.tBodyGyroJerk.mean.X|Measurement|Numeric
-mean.of.tBodyGyroJerk.mean.Y|Measurement|Numeric
-mean.of.tBodyGyroJerk.mean.Z|Measurement|Numeric
-mean.of.tBodyGyroJerk.std.X|Measurement|Numeric
-mean.of.tBodyGyroJerk.std.Y|Measurement|Numeric
-mean.of.tBodyGyroJerk.std.Z|Measurement|Numeric
-mean.of.tBodyAccMag.mean|Measurement|Numeric
-mean.of.tBodyAccMag.std|Measurement|Numeric
-mean.of.tGravityAccMag.mean|Measurement|Numeric
-mean.of.tGravityAccMag.std|Measurement|Numeric
-mean.of.tBodyAccJerkMag.mean|Measurement|Numeric
-mean.of.tBodyAccJerkMag.std|Measurement|Numeric
-mean.of.tBodyGyroMag.mean|Measurement|Numeric
-mean.of.tBodyGyroMag.std|Measurement|Numeric
-mean.of.tBodyGyroJerkMag.mean|Measurement|Numeric
-mean.of.tBodyGyroJerkMag.std|Measurement|Numeric
-mean.of.fBodyAcc.mean.X|Measurement|Numeric
-mean.of.fBodyAcc.mean.Y|Measurement|Numeric
-mean.of.fBodyAcc.mean.Z|Measurement|Numeric
-mean.of.fBodyAcc.std.X|Measurement|Numeric
-mean.of.fBodyAcc.std.Y|Measurement|Numeric
-mean.of.fBodyAcc.std.Z|Measurement|Numeric
-mean.of.fBodyAccJerk.mean.X|Measurement|Numeric
-mean.of.fBodyAccJerk.mean.Y|Measurement|Numeric
-mean.of.fBodyAccJerk.mean.Z|Measurement|Numeric
-mean.of.fBodyAccJerk.std.X|Measurement|Numeric
-mean.of.fBodyAccJerk.std.Y|Measurement|Numeric
-mean.of.fBodyAccJerk.std.Z|Measurement|Numeric
-mean.of.fBodyGyro.mean.X|Measurement|Numeric
-mean.of.fBodyGyro.mean.Y|Measurement|Numeric
-mean.of.fBodyGyro.mean.Z|Measurement|Numeric
-mean.of.fBodyGyro.std.X|Measurement|Numeric
-mean.of.fBodyGyro.std.Y|Measurement|Numeric
-mean.of.fBodyGyro.std.Z|Measurement|Numeric
-mean.of.fBodyAccMag.mean|Measurement|Numeric
-mean.of.fBodyAccMag.std|Measurement|Numeric
-mean.of.fBodyBodyAccJerkMag.mean|Measurement|Numeric
-mean.of.fBodyBodyAccJerkMag.std|Measurement|Numeric
-mean.of.fBodyBodyGyroMag.mean|Measurement|Numeric
-mean.of.fBodyBodyGyroMag.std|Measurement|Numeric
-mean.of.fBodyBodyGyroJerkMag.mean|Measurement|Numeric
-mean.of.fBodyBodyGyroJerkMag.std|Measurement|Numeric
+Variable Name | Role | Type | Units | Range
+--- | --- | --- | --- | ---
+mean.of.tBodyAcc.mean.X|Measurement|Numeric|Dimensionless|[-1,1]
+mean.of.tBodyAcc.mean.Y|Measurement|Numeric|Dimensionless|[-1,1]
+mean.of.tBodyAcc.mean.Z|Measurement|Numeric|Dimensionless|[-1,1]
+mean.of.tBodyAcc.std.X|Measurement|Numeric|Dimensionless|[-1,1]
+mean.of.tBodyAcc.std.Y|Measurement|Numeric|Dimensionless|[-1,1]
+mean.of.tBodyAcc.std.Z|Measurement|Numeric|Dimensionless|[-1,1]
+mean.of.tGravityAcc.mean.X|Measurement|Numeric|Dimensionless|[-1,1]
+mean.of.tGravityAcc.mean.Y|Measurement|Numeric|Dimensionless|[-1,1]
+mean.of.tGravityAcc.mean.Z|Measurement|Numeric|Dimensionless|[-1,1]
+mean.of.tGravityAcc.std.X|Measurement|Numeric|Dimensionless|[-1,1]
+mean.of.tGravityAcc.std.Y|Measurement|Numeric|Dimensionless|[-1,1]
+mean.of.tGravityAcc.std.Z|Measurement|Numeric|Dimensionless|[-1,1]
+mean.of.tBodyAccJerk.mean.X|Measurement|Numeric|Dimensionless|[-1,1]
+mean.of.tBodyAccJerk.mean.Y|Measurement|Numeric|Dimensionless|[-1,1]
+mean.of.tBodyAccJerk.mean.Z|Measurement|Numeric|Dimensionless|[-1,1]
+mean.of.tBodyAccJerk.std.X|Measurement|Numeric|Dimensionless|[-1,1]
+mean.of.tBodyAccJerk.std.Y|Measurement|Numeric|Dimensionless|[-1,1]
+mean.of.tBodyAccJerk.std.Z|Measurement|Numeric|Dimensionless|[-1,1]
+mean.of.tBodyGyro.mean.X|Measurement|Numeric|Dimensionless|[-1,1]
+mean.of.tBodyGyro.mean.Y|Measurement|Numeric|Dimensionless|[-1,1]
+mean.of.tBodyGyro.mean.Z|Measurement|Numeric|Dimensionless|[-1,1]
+mean.of.tBodyGyro.std.X|Measurement|Numeric|Dimensionless|[-1,1]
+mean.of.tBodyGyro.std.Y|Measurement|Numeric|Dimensionless|[-1,1]
+mean.of.tBodyGyro.std.Z|Measurement|Numeric|Dimensionless|[-1,1]
+mean.of.tBodyGyroJerk.mean.X|Measurement|Numeric|Dimensionless|[-1,1]
+mean.of.tBodyGyroJerk.mean.Y|Measurement|Numeric|Dimensionless|[-1,1]
+mean.of.tBodyGyroJerk.mean.Z|Measurement|Numeric|Dimensionless|[-1,1]
+mean.of.tBodyGyroJerk.std.X|Measurement|Numeric|Dimensionless|[-1,1]
+mean.of.tBodyGyroJerk.std.Y|Measurement|Numeric|Dimensionless|[-1,1]
+mean.of.tBodyGyroJerk.std.Z|Measurement|Numeric|Dimensionless|[-1,1]
+mean.of.tBodyAccMag.mean|Measurement|Numeric|Dimensionless|[-1,1]
+mean.of.tBodyAccMag.std|Measurement|Numeric|Dimensionless|[-1,1]
+mean.of.tGravityAccMag.mean|Measurement|Numeric|Dimensionless|[-1,1]
+mean.of.tGravityAccMag.std|Measurement|Numeric|Dimensionless|[-1,1]
+mean.of.tBodyAccJerkMag.mean|Measurement|Numeric|Dimensionless|[-1,1]
+mean.of.tBodyAccJerkMag.std|Measurement|Numeric|Dimensionless|[-1,1]
+mean.of.tBodyGyroMag.mean|Measurement|Numeric|Dimensionless|[-1,1]
+mean.of.tBodyGyroMag.std|Measurement|Numeric|Dimensionless|[-1,1]
+mean.of.tBodyGyroJerkMag.mean|Measurement|Numeric|Dimensionless|[-1,1]
+mean.of.tBodyGyroJerkMag.std|Measurement|Numeric|Dimensionless|[-1,1]
+mean.of.fBodyAcc.mean.X|Measurement|Numeric|Dimensionless|[-1,1]
+mean.of.fBodyAcc.mean.Y|Measurement|Numeric|Dimensionless|[-1,1]
+mean.of.fBodyAcc.mean.Z|Measurement|Numeric|Dimensionless|[-1,1]
+mean.of.fBodyAcc.std.X|Measurement|Numeric|Dimensionless|[-1,1]
+mean.of.fBodyAcc.std.Y|Measurement|Numeric|Dimensionless|[-1,1]
+mean.of.fBodyAcc.std.Z|Measurement|Numeric|Dimensionless|[-1,1]
+mean.of.fBodyAccJerk.mean.X|Measurement|Numeric|Dimensionless|[-1,1]
+mean.of.fBodyAccJerk.mean.Y|Measurement|Numeric|Dimensionless|[-1,1]
+mean.of.fBodyAccJerk.mean.Z|Measurement|Numeric|Dimensionless|[-1,1]
+mean.of.fBodyAccJerk.std.X|Measurement|Numeric|Dimensionless|[-1,1]
+mean.of.fBodyAccJerk.std.Y|Measurement|Numeric|Dimensionless|[-1,1]
+mean.of.fBodyAccJerk.std.Z|Measurement|Numeric|Dimensionless|[-1,1]
+mean.of.fBodyGyro.mean.X|Measurement|Numeric|Dimensionless|[-1,1]
+mean.of.fBodyGyro.mean.Y|Measurement|Numeric|Dimensionless|[-1,1]
+mean.of.fBodyGyro.mean.Z|Measurement|Numeric|Dimensionless|[-1,1]
+mean.of.fBodyGyro.std.X|Measurement|Numeric|Dimensionless|[-1,1]
+mean.of.fBodyGyro.std.Y|Measurement|Numeric|Dimensionless|[-1,1]
+mean.of.fBodyGyro.std.Z|Measurement|Numeric|Dimensionless|[-1,1]
+mean.of.fBodyAccMag.mean|Measurement|Numeric|Dimensionless|[-1,1]
+mean.of.fBodyAccMag.std|Measurement|Numeric|Dimensionless|[-1,1]
+mean.of.fBodyBodyAccJerkMag.mean|Measurement|Numeric|Dimensionless|[-1,1]
+mean.of.fBodyBodyAccJerkMag.std|Measurement|Numeric|Dimensionless|[-1,1]
+mean.of.fBodyBodyGyroMag.mean|Measurement|Numeric|Dimensionless|[-1,1]
+mean.of.fBodyBodyGyroMag.std|Measurement|Numeric|Dimensionless|[-1,1]
+mean.of.fBodyBodyGyroJerkMag.mean|Measurement|Numeric|Dimensionless|[-1,1]
+mean.of.fBodyBodyGyroJerkMag.std|Measurement|Numeric|Dimensionless|[-1,1]
 
-Each of these variables contains the mean of all observed measures for that subject and activity.label. The description of the underlying measures is (as taken from the README.txt and features_info.txt in the downloaded zipfile):
+Each of these variables contains the mean of all observed measures for that subject and activity.label. In the original raw data files, the underlying measures have been normalized to a range of [-1,1] and as such have lost their units. In this normalization process, any units are lost, as each value is divided by the absolute maximum as observed, which means dividing it by the same units, making the resulting value unitless.
+
+The process of averaging done in this repository doesn't change the units of the variables. The described range is the theoretical value of that range, as -1 and 1 are not necessarily observed. 
+
+
+
+The description of the underlying measures is (as taken from the README.txt and features_info.txt in the downloaded zipfile):
 
 From the README.txt
 
@@ -192,4 +198,4 @@ From the features_info.txt:
 > mean(): Mean value
 > std(): Standard deviation
 
-The list of estimated variables continues, but those are not used for this dataset. The unit of measurement of each variable equals what it was in the original dataset.
+The list of estimated variables continues, but those are not used for this dataset. 

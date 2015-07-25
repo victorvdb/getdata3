@@ -44,6 +44,8 @@ This is the script file that will perform the following activities:
 * aggregates and reshapes the data into the tidy dataset provided in this repo
 * save the tidy dataset to a txt file
 
+Extensive descriptions of what is being done can be found in the comments of the script. I have chosen to retain the variables that originally contained std() and mean() for the course project. There were other variables containing meanFreq() and so forth, but those fall outside of the required fields as far as I understand.
+
 Required packages are:
 
 * dplyr
